@@ -20,10 +20,10 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             con.Open(); //opens connection to db
-            con.Open();
+            
         }
         
-        private void panel2_Paint_amit(object sender, PaintEventArgs e)
+        private void panel2_Paint_itay(object sender, PaintEventArgs e)
         {
 
         }
@@ -61,7 +61,7 @@ namespace WindowsFormsApp1
                 mainform.ShowDialog();
                 Close();
             }
-			Close();
+			
         }
 
         private void Form1_Load(object sender, EventArgs e)
