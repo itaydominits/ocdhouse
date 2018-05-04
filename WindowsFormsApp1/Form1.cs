@@ -20,8 +20,9 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             con.Open(); //opens connection to db
+            con.Open();
         }
-
+        
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
