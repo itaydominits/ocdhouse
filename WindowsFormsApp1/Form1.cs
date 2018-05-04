@@ -15,6 +15,7 @@ namespace WindowsFormsApp1
     {
 
         MySqlConnection con = new MySqlConnection(@"host=localhost;database=users;password=root;username=root");//connect to db
+		
         public Form1()
         {
             InitializeComponent();
