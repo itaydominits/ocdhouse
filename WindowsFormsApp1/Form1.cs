@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
             con.Open();
         }
         
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void panel2_Paint_amit(object sender, PaintEventArgs e)
         {
 
         }
